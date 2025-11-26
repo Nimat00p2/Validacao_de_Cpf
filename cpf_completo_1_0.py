@@ -44,6 +44,7 @@ def validacao_cpf():
     limpar_tela()
 
 def gerador_cpf(quantidade):
+    limpar_tela()
     print('')
     for _ in range(int(quantidade)):
         cpf_parcial = ''
@@ -94,3 +95,4 @@ while True:
 
     else:
         print('Resposta Invalida')
+
